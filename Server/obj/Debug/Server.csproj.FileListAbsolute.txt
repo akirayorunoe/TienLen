@@ -1,0 +1,49 @@
+C:\Users\hoang\Desktop\TienLen\Server\bin\Debug\Server.exe.config
+C:\Users\hoang\Desktop\TienLen\Server\bin\Debug\Server.exe
+C:\Users\hoang\Desktop\TienLen\Server\bin\Debug\Server.pdb
+C:\Users\hoang\Desktop\TienLen\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\hoang\Desktop\TienLen\Server\obj\Debug\Server.Form1.resources
+C:\Users\hoang\Desktop\TienLen\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\hoang\Desktop\TienLen\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\hoang\Desktop\TienLen\Server\obj\Debug\Server.exe
+C:\Users\hoang\Desktop\TienLen\Server\obj\Debug\Server.pdb
+C:\Users\hoang\Desktop\TienLen - Copy\TienLen\Server\bin\Debug\Server.exe.config
+C:\Users\hoang\Desktop\TienLen - Copy\TienLen\Server\obj\Debug\Server.exe
+C:\Users\hoang\Desktop\TienLen - Copy\TienLen\Server\obj\Debug\Server.pdb
+C:\Users\hoang\Desktop\New folder (2)\TienLen\Server\bin\Debug\Server.exe.config
+C:\Users\hoang\Desktop\New folder (2)\TienLen\Server\obj\Debug\Server.exe
+C:\Users\hoang\Desktop\New folder (2)\TienLen\Server\obj\Debug\Server.pdb
+C:\Users\hoang\Desktop\New folder (2)\TienLen\Server\bin\Debug\Server.exe
+C:\Users\hoang\Desktop\New folder (2)\TienLen\Server\bin\Debug\Server.pdb
+C:\Users\hoang\Desktop\New folder (2)\TienLen\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\hoang\Desktop\New folder (2)\TienLen\Server\obj\Debug\Server.Form1.resources
+C:\Users\hoang\Desktop\New folder (2)\TienLen\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\hoang\Desktop\New folder (2)\TienLen\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\hoang\Desktop\New folder (3)\TienLen\Server\bin\Debug\Server.exe.config
+C:\Users\hoang\Desktop\New folder (3)\TienLen\Server\obj\Debug\Server.exe
+C:\Users\hoang\Desktop\New folder (3)\TienLen\Server\obj\Debug\Server.pdb
+C:\Users\hoang\Desktop\New folder (3)\TienLen\Server\bin\Debug\Server.exe
+C:\Users\hoang\Desktop\New folder (3)\TienLen\Server\bin\Debug\Server.pdb
+C:\Users\hoang\Desktop\New folder (3)\TienLen\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\hoang\Desktop\New folder (3)\TienLen\Server\obj\Debug\Server.Form1.resources
+C:\Users\hoang\Desktop\New folder (3)\TienLen\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\hoang\Desktop\New folder (3)\TienLen\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\1Hack3r\Desktop\TienLen\TienLen\Server\bin\Debug\Server.exe.config
+C:\Users\1Hack3r\Desktop\TienLen\TienLen\Server\bin\Debug\Server.exe
+C:\Users\1Hack3r\Desktop\TienLen\TienLen\Server\bin\Debug\Server.pdb
+C:\Users\1Hack3r\Desktop\TienLen\TienLen\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\1Hack3r\Desktop\TienLen\TienLen\Server\obj\Debug\Server.Form1.resources
+C:\Users\1Hack3r\Desktop\TienLen\TienLen\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\1Hack3r\Desktop\TienLen\TienLen\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\1Hack3r\Desktop\TienLen\TienLen\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\1Hack3r\Desktop\TienLen\TienLen\Server\obj\Debug\Server.exe
+C:\Users\1Hack3r\Desktop\TienLen\TienLen\Server\obj\Debug\Server.pdb
+C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Server\bin\Debug\Server.exe.config
+C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Server\bin\Debug\Server.exe
+C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Server\bin\Debug\Server.pdb
+C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Server\obj\Debug\Server.Form1.resources
+C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Server\obj\Debug\Server.exe
+C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Server\obj\Debug\Server.pdb
