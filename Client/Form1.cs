@@ -24,6 +24,7 @@ namespace Client
         private TCPModel tcpForOpponent;
         string[] deck;
         string[] handDeck;
+        int dem_heo = 0;
         bool Loaded = false;
         bool hadcheck = false;
         int runortrip = 0;//1 if run, 2 if trip
@@ -115,11 +116,13 @@ namespace Client
                     for (int i = 0; i < 13; i++)
                     {
                         Sort(deck, 13);
+                        if (string.Equals(deck[i], "15.1") || string.Equals(deck[i], "15.2") || string.Equals(deck[i], "15.3") || string.Equals(deck[i], "15.4")) dem_heo++;
                         string temp = @"PNG\" + deck[i].Replace('.', '_') + ".png";//img link
                         arrPB[i].Image = Image.FromFile(temp);
                         arrPB[i].SizeMode = PictureBoxSizeMode.StretchImage;
                     }
-                    Loaded = true;
+                    
+                        Loaded = true;
                 }
               
 
@@ -282,7 +285,7 @@ namespace Client
             string str = "";
             string[] hand=new string[13]; int k = 0; int x = 0;//int runortrip = 0;
             double[] inHand = new double[13]; bool check31 = false; bool checkok = true;
-            string[] table = new string[13];
+            string[] table = new string[13]; 
             double[] inTable = new double[13];
             for (int i = 0; i < 13; i++) { if (string.Equals(deck[i], "3.1")) check31 = true; }//it has 3.1
             for (int i = 0; i < 13; i++)
@@ -293,6 +296,7 @@ namespace Client
                     //will have that value
                     str = str + deck[i] + ";";// and put it in str 
                     hand[k] = deck[i];//take value from pop up card put in hand[]
+                    //if (Math.Floor(double.Parse(deck[i]) )== 15) dem_heo++;//dem heo con lai
                     inHand[k] = double.Parse(deck[i]); //convert to double and put in inHand[]
                     k++;
                 } 
@@ -309,13 +313,14 @@ namespace Client
                 }
             }
             //MessageBox.Show(str6);
-            if (k != 0) {
+            if (k != 0)
+            {
                 for (int i = 0; i < k; i++)
-            { if (check31==true && inHand[i] != 3.1) { checkok = false; } }//it has 3.1 but didnt go
+                { if (check31 == true && inHand[i] != 3.1) { checkok = false; } }//it has 3.1 but didnt go
                 for (int i = 0; i < k; i++)
                 { if (inHand[i] == 3.1) checkok = true; }//yes it has 3.1
-               // MessageBox.Show(check31.ToString()+checkok.ToString());
-                if (!checkok&&!hadcheck)
+                                                         // MessageBox.Show(check31.ToString()+checkok.ToString());
+                if (!checkok && !hadcheck)
                 {
                     for (int i = 0; i < 13; i++)
                     {
@@ -327,18 +332,21 @@ namespace Client
                     MessageBox.Show("Ban danh loi!");
                     return;
                 }
+                // 4 la nhung 3 con heo thì con heo phai dc danh, 3 la nhung 2 con heo -> dc danh
 
-                if (!Play_Check(inHand,k))
+
+                if (!Play_Check(inHand, k))
                 {
                     for (int i = 0; i < 13; i++)
                     {
                         if (arrPB[i].Top != imgCurr[i])
                         {
-                           
+
                             arrPB[i].Top = imgCurr[i];
                         }
-                    } MessageBox.Show("Ban danh loi!");
-                            return;
+                    }
+                    MessageBox.Show("Ban danh loi!");
+                    return;
                 }
                 if (x != 0)//check on table
                 {
@@ -349,23 +357,52 @@ namespace Client
                             if (arrPB[i].Top != imgCurr[i])
                             {
                                 arrPB[i].Top = imgCurr[i];
-                                
+
                             }
-                        }MessageBox.Show("Ban danh loi!");
+                        }
+                        MessageBox.Show("Ban danh loi!");
                         return;
                     }
                 }
-                for (int i = 0; i < 13; i++)
+                int arr_v = 0; int arr_s = 0;//
+                PictureBox[] arr_temp = new PictureBox[13];//
+                    for (int i = 0; i < 13; i++)
                     {
                     if (arrPB[i].Top != imgCurr[i])
                     {
                         arrPB[i].Top = imgCurr[i];
                         arrPB[i].Visible = false;
+                        arr_temp[arr_v] = arrPB[i];
+                        arr_v++; arr_s++;
                        // win_count++;
                        // MessageBox.Show(win_count + "");
                     }
                     }
+                if (dem_heo != 0)
+                {
+                    int a_temp = dem_heo;
+                    for (int i = 0; i < k; i++)
+                    {
+                        if (Math.Floor(inHand[i]) == 15) dem_heo--;
+                    }
+                    int count_tay = 0;
+                    for (int i = 0; i < 13; i++)
+                    {
+                        if (arrPB[i].Visible) count_tay++;
+                    }
+                    if (dem_heo == count_tay)
+                    {
+                        dem_heo = a_temp;
+                        for(int i=0;i<arr_s;i++)
+                        {
+                            arr_temp[i].Visible = true;
+                        }
+                        MessageBox.Show("Ban danh loi!");
+                        return;
+                    }
                 }
+            }
+              
             win_count = 0;//
             for (int i = 0; i < 13; i++)
             {
@@ -708,7 +745,6 @@ namespace Client
                     return triple || run;//
                 default: //check run >= 4
                     {
-                        //MessageBox.Show(k+"");
                         //check 33 44 55
                         for (int i = 0; i < k-1; i++)
                         {
@@ -721,7 +757,6 @@ namespace Client
                         }
                         if (k >= 6 && k % 2 == 0 && check == k / 2)//if pair run
                         {
-
                             for (int i = 0; i < k; i = i + 2)
                             {
                                 if (Math.Floor(arr[i]) + 1 == Math.Floor(arr[i + 2]) && Math.Floor(arr[i + 1]) != 15)
@@ -740,7 +775,6 @@ namespace Client
                                 return false;
                             }
                         }
-                        
                     }return true;
                     
             } 

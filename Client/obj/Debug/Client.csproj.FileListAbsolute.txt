@@ -67,3 +67,13 @@ C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Client\obj\Debug\Client.Form1.res
 C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Client\obj\Debug\Client.Form2.resources
 C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Client\obj\Debug\Client.Properties.Resources.resources
 C:\Users\hoang\Desktop\TienLen\TienLen\TienLen\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\hoang\Desktop\TienLen\TienLen\Client\bin\Debug\Client.exe.config
+C:\Users\hoang\Desktop\TienLen\TienLen\Client\bin\Debug\Client.exe
+C:\Users\hoang\Desktop\TienLen\TienLen\Client\bin\Debug\Client.pdb
+C:\Users\hoang\Desktop\TienLen\TienLen\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\hoang\Desktop\TienLen\TienLen\Client\obj\Debug\Client.Form1.resources
+C:\Users\hoang\Desktop\TienLen\TienLen\Client\obj\Debug\Client.Form2.resources
+C:\Users\hoang\Desktop\TienLen\TienLen\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\hoang\Desktop\TienLen\TienLen\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\hoang\Desktop\TienLen\TienLen\Client\obj\Debug\Client.exe
+C:\Users\hoang\Desktop\TienLen\TienLen\Client\obj\Debug\Client.pdb
